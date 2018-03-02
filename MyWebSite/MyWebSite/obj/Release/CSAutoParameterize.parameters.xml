@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="KumarEntities-Web.config Connection String" description="KumarEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/KumarData.csdl|res://*/KumarData.ssdl|res://*/KumarData.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=kumarit.database.windows.net;initial catalog=KumarITAzure;user id=santhakumar;password=007@yekcim37;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kam\\Desktop\\Kumarit-Website\\MyWebSite\\MyWebSite\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='KumarEntities']/@connectionString" />
+  </parameter>
+</parameters>

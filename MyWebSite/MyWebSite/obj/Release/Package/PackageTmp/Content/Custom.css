@@ -1,0 +1,120 @@
+﻿body {
+}
+
+#index-section {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0%;
+}
+
+.firstSection-background {
+    background: url(Background.jpeg);
+    opacity: 0.8;
+}
+
+.index-position {
+    padding-top: 33%;
+    padding-left: 15%;
+    padding-right: 10%;
+}
+
+.custom-font {
+    text-align: center;
+    font-weight: 900;
+}
+
+.arrowMargin {
+    bottom: 10%;
+    display: inline-block;
+    position: absolute;
+}
+
+.down-arrow {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+    float: left;
+    box-shadow: -10px 10px 0 rgba(0,255,0,.5);
+    cursor: pointer;
+    animation: bouncearrow 1s infinite;
+}
+
+.down-arrow {
+    transform: rotate(-45deg);
+}
+
+    .down-arrow:hover {
+        box-shadow: -10px 10px 0 rgba(0,255,0,1)
+    }
+
+@keyframes bouncearrow {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: 20px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+/*End of First Section*/
+/*second Section Starts*/
+#Experties-section {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    margin-top: 0%;
+}
+
+.section-padding {
+    padding-top: 5%;
+}
+
+.eachrow-padding {
+    padding-top: 5%;
+}
+/*section two ends and section three begins*/
+#Project-section {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    margin-top: 0%;
+}
+
+.middle-row {
+    padding-top: 15%;
+}
+/*section three ends and section four begins*/
+#aboutMe-Section {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    margin-top: 0%;
+    background-color: #eee;
+}
+
+.button-contact {
+    bottom: 20%;
+    position: relative;
+    padding-left: 40%;
+}
+
+b.contactme {
+    font-size: 24px;
+}
+
+.rowheight {
+    padding: 2%;
+}
+
+#footersection {
+    min-height: 10vh;
+}
