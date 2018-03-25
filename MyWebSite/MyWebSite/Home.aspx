@@ -67,7 +67,7 @@
                         <h1><span>Hi, I am Kumar. I build & design Websites,</span>
                             
                             <br />
-                            <span>Web applictaions, WCF and Web API.<br />
+                            <span>Web applications, WCF and Web API.<br />
                             </span>
                             <button type="button" class="btn btn-outline-success font-weight-bold" data-toggle="modal" data-target="#ContactForm">Yes, I'm available. Connect with Me :)</button>
                         </h1>
