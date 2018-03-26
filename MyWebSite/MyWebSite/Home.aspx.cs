@@ -166,5 +166,10 @@ namespace MyWebSite
             lblStatus.Text = "Thanks for your interest";
         }
 
+        protected void StartUpModalButton_Click(object sender, EventArgs e)
+        {
+            Response.BufferOutput = true;
+            Response.Redirect("https://github.com/santhakumar0037/Pegasus-app.git");
+        }
     }
 }

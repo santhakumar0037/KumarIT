@@ -47,10 +47,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <asp:HyperLink ID="Resume" runat="server" NavigateUrl="~/File/Santha_kumar_CV.pdf">Resume</asp:HyperLink>
-          <%--  <asp:Button ID="BtnCV" runat="server" CssClass="btn btn-light dropdown-item"
-                  OnClick="BtnCV_Click" Text="My CV" />--%>
-
-         <%--  <asp:Button ID="BtnSubmitCV" runat="server" CssClass="btn btn-success mr-auto" OnClick="BtnSubmitCV_Click" Text="My CV" UseSubmitBehavior="False" />--%>
+         
             
         </div>
       </li>
@@ -205,7 +202,10 @@
 
                                             </h5>
                                             <div class="text-center">
-                                                <button type="button" class="btn btn-outline-success">GIT Hub Link </button>
+                                                                                           
+                                               <a href="https://github.com/santhakumar0037/Pegasus-app.git">
+                                                   <input type="button" class="btn btn-success" value="Git Hub Link" />
+                                                </a>
                                             </div>
 
                                         </div>
@@ -237,7 +237,9 @@
                                                 and Web Services during my free time. Please click on my GIT Hub link to view my other projects.
                                             </h5>
                                             <div class="text-center">
-                                                <button type="button" class="btn btn-outline-success">GIT Hub Link </button>
+                                                 <a href="https://github.com/santhakumar0037/OtherProjects.git">
+                                                   <input type="button" class="btn btn-success" value="Git Hub Link" />
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="modal-footer">
